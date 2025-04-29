@@ -2,11 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="theme-color" content="#6A0DAD" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#3A0757" media="(prefers-color-scheme: dark)">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Артём Зайцев — веб-разработчик. Создаю адаптивные сайты для бизнеса: лендинги, интернет-магазины, правки. HTML, CSS, JavaScript, React. Индивидуальный подход. Бесплатная консультация.">
     <meta property="og:title" content="Артём Зайцев | Портфолио веб-разработчика">
     <meta property="og:description" content="Создаю адаптивные сайты на HTML, CSS, JavaScript и React.">
@@ -14,33 +10,22 @@
     <meta property="og:url" content="https://zzaitsevartem.github.io/">
     <meta property="og:type" content="website">
     <title>Артём Зайцев | Портфолио веб-разработчика</title>
-    <link rel="preload" href="css/style.css" as="style">
-    <link rel="preload" href="img/my-photo.webp" as="image">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="icon" href="img/web-developing.svg">
-    <style>
-        @font-face {
-            font-family: 'Montserrat';
-            src: url('/fonts/montserrat.woff2') format('woff2');
-            font-display: swap;
-            font-weight: 100 900;
-        }
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: #1A1A1A;
-            padding-top: env(safe-area-inset-top);
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 <header>
     <div class="header-container">
+
         <div class="burger-menu">
             <i class="fas fa-bars"></i>
         </div>
+
         <div class="menu-items">
             <a href="https://t.me/ssaxharniyy" class="header-item" target="_blank">Заказать</a>
             <a href="#footer" class="header-item">Контакты</a>
@@ -58,12 +43,7 @@
                     <p class="intro-text">Мне 19 лет, и я являюсь фрилансером в сфере веб-разработки. В моем стеке такие языки, как HTML, CSS, JavaScript, PHP, Python, а также библиотеки Bootstrap и LESS. Мои проекты помогают бизнесу развиваться и привлекать клиентов за счет индивидуального подхода к каждому клиенту. Я стремлюсь создавать функциональные, стильные и адаптивные сайты, которые решают задачи бизнеса и приносят реальную пользу. Моя цель — помогать клиентам выделяться на рынке, используя современные технологии и креативные решения.</p>
                 </div>
                 <div class="photo-container">
-                    <img src="img/my-photo.webp" 
-                         alt="Моя фотография"
-                         width="600"
-                         height="600"
-                         loading="lazy"
-                         decoding="async">
+                    <img src="img/my-photo.webp" alt="Моя фотография">
                 </div>
             </div>
 
@@ -144,11 +124,7 @@
                 <div class="portfolio-grid">
                     <div class="portfolio-item">
                         <div class="portfolio-image">
-                            <img src="img/Frosted-Muse.webp" 
-                                 alt="Шаблон Кондитерской"
-                                 width="800"
-                                 height="450"
-                                 loading="lazy">
+                            <img src="img/Frosted-Muse.jpg" alt="Шаблон Кондиреской">
                         </div>
                         <h3>Шаблон лендинга <br>Frosted-Muse</h3>
                         <div class="portfolio-links">
@@ -163,11 +139,7 @@
 
                     <div class="portfolio-item">
                         <div class="portfolio-image">
-                            <img src="img/Barber-Revolution.webp" 
-                                 alt="Шаблон барбершопа"
-                                 width="800"
-                                 height="450"
-                                 loading="lazy">
+                            <img src="img/Barber-Revolution.jpg" alt="Шаблон барбершопа">
                         </div>
                         <h3>Шаблон лендинга <br>Barber-Revolution</h3>
                         <div class="portfolio-links">
@@ -182,11 +154,7 @@
 
                     <div class="portfolio-item">
                         <div class="portfolio-image">
-                            <img src="img/Freshly-Bakery.webp" 
-                                 alt="Пекарня"
-                                 width="800"
-                                 height="450"
-                                 loading="lazy">
+                            <img src="img/Freshly-Bakery.jpg" alt="Пекарня">
                         </div>
                         <h3>Шаблон лендинга <br>Freshly-Bakery</h3>
                         <div class="portfolio-links">
@@ -201,13 +169,9 @@
 
                     <div class="portfolio-item">
                         <div class="portfolio-image">
-                            <img src="img/Floriscent-Essence.webp" 
-                                 alt="Магазин цветов"
-                                 width="800"
-                                 height="450"
-                                 loading="lazy">
+                            <img src="img/Floriscent-Essence.jpg" alt="Магазин цветов">
                         </div>
-                        <h3>Шаблон лендинга <br>Floriscent-Essence</h3>
+                        <h3>Шаблон лендинга <br>Floriscent-Essence </h3>
                         <div class="portfolio-links">
                             <a href="https://github.com/zzaitsevartem/floriscent-essence" target="_blank" class="code-btn">
                                 <i class="fab fa-github"></i> Посмотреть код
@@ -219,11 +183,7 @@
                     </div>
                     <div class="portfolio-item">
                         <div class="portfolio-image">
-                            <img src="img/SignUp.webp" 
-                                 alt="Форма регистрации"
-                                 width="800"
-                                 height="450"
-                                 loading="lazy">
+                            <img src="img/SignUp.jpg" alt="Форма регистрации">
                         </div>
                         <h3>Форма регистрации <br>с валидацией и скрытием пароля</h3>
                         <div class="portfolio-links">
@@ -257,6 +217,7 @@
     </div>
 </footer>
 
-<script src="js/script.js" defer></script>
+
+<script src="js/script.js"></script>
 </body>
 </html>
